@@ -61,11 +61,11 @@ MonoBehaviour:
   Path: ../City_musicscape/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637529948487438766
+  lastModified: 637529957029281844
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 848
+    Value: 914
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -85,13 +85,37 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -6362153761777422813}
   - {fileID: -7959122345293224393}
+  - {fileID: 1596654939541375484}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3563344440144515223}
   StringsBanks:
   - {fileID: -3512191845587185641}
-  stringsBankWriteTime: 637529948487438766
+  stringsBankWriteTime: 637529957029281844
   cacheVersion: 6
+--- !u!114 &1596654939541375484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/City landscape (Seagull_high altitude)
+  m_EditorClassIdentifier: 
+  Path: event:/City landscape (Seagull_high altitude)
+  guid: 04e751ee27931443bf6c51a92bcb5587
+  Banks:
+  - {fileID: 3563344440144515223}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &3563344440144515223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,7 +131,7 @@ MonoBehaviour:
   Path: ../City_musicscape/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637529948487409219
+  lastModified: 637529957029261901
   LoadResult: 0
   FileSizes: []
   Exists: 1
