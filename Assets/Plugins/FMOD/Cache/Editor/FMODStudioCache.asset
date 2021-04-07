@@ -46,6 +46,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-5263750174170775724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Seagull (close)
+  m_EditorClassIdentifier: 
+  Path: event:/Seagull (close)
+  guid: 61426f9375092942b796bc24a83a80b1
+  Banks:
+  - {fileID: -432333072456734285}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 60784
 --- !u!114 &-3512191845587185641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,11 +84,53 @@ MonoBehaviour:
   Path: ../City_musicscape/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637529957029281844
+  lastModified: 637534195389765277
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 914
+    Value: 1110
+  Exists: 1
+--- !u!114 &-437309391189724599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Electric music-noise
+  m_EditorClassIdentifier: 
+  Path: event:/Electric music-noise
+  guid: 4d865a2a55a4c94e9dff724f2a7e2c6f
+  Banks:
+  - {fileID: -432333072456734285}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 134400
+--- !u!114 &-432333072456734285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Grownd.bank
+  m_EditorClassIdentifier: 
+  Path: ../City_musicscape/Build/Desktop/Grownd.bank
+  Name: Grownd
+  StudioPath: bank:/Grownd
+  lastModified: 637534195547840360
+  LoadResult: 0
+  FileSizes: []
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -82,16 +147,20 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -3512191845587185641}
   - {fileID: 3563344440144515223}
+  - {fileID: -432333072456734285}
   EditorEvents:
   - {fileID: -6362153761777422813}
   - {fileID: -7959122345293224393}
   - {fileID: 1596654939541375484}
+  - {fileID: -437309391189724599}
+  - {fileID: -5263750174170775724}
+  - {fileID: 7396108281260085248}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3563344440144515223}
   StringsBanks:
   - {fileID: -3512191845587185641}
-  stringsBankWriteTime: 637529957029281844
+  stringsBankWriteTime: 637534195389765277
   cacheVersion: 6
 --- !u!114 &1596654939541375484
 MonoBehaviour:
@@ -131,7 +200,30 @@ MonoBehaviour:
   Path: ../City_musicscape/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637529957029261901
+  lastModified: 637534195389661056
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &7396108281260085248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialouge 1 (strings)
+  m_EditorClassIdentifier: 
+  Path: event:/Dialouge 1 (strings)
+  guid: aba47d865276de449201994442cfcc69
+  Banks:
+  - {fileID: -432333072456734285}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 231681

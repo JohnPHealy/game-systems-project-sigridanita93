@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000026789831278 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000002654F9A9B38 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -16,12 +16,18 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] SoundI::release                          : City landscape (Seagull_high altitude) (00000267898901A8)
-[LOG] SoundI::release                          :     City landscape (Seagull_high altitude) (00000267243A52D8)
-[LOG] SoundI::release                          :     City landscape (Seagull_high altitude) (000002654F0E1488)
-[LOG] SoundI::release                          : City landscape (Seagull_high altitude) (000002678988FE48)
-[LOG] SoundI::release                          :     City landscape (Seagull_high altitude) (00000267243A4F98)
-[LOG] SoundI::release                          :     City landscape (Seagull_high altitude) (000002654F0E2208)
+[LOG] SoundI::release                          : City landscape (Seagull_high altitude) (000002673C62E1B8)
+[LOG] SoundI::release                          :     City landscape (Seagull_high altitude) (000002673DF03A58)
+[LOG] SoundI::release                          :     City landscape (Seagull_high altitude) (00000265521B6A28)
+[LOG] SoundI::release                          : City landscape (Seagull_high altitude) (000002673C62CF28)
+[LOG] SoundI::release                          :     City landscape (Seagull_high altitude) (000002673DF021F8)
+[LOG] SoundI::release                          :     City landscape (Seagull_high altitude) (00000265521B6F38)
+[LOG] SoundI::release                          : Electric music-noise (000002673C62CD78)
+[LOG] SoundI::release                          :     Electric music-noise (000002673DF05118)
+[LOG] SoundI::release                          :     Electric music-noise (00000265521B6D88)
+[LOG] SoundI::release                          : Dialouge 1 (strings) (000002673C62CBC8)
+[LOG] SoundI::release                          :     Dialouge 1 (strings) (000002673DF02058)
+[LOG] SoundI::release                          :     Dialouge 1 (strings) (00000265521B70E8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
