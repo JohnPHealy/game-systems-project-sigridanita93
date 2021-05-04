@@ -47,7 +47,7 @@ public class GameController : MonoBehaviour
    
     }
 
-    public void Underwater()
+    public void UnlockScene()
     {
 
     }
