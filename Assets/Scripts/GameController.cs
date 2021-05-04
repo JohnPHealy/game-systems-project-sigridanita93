@@ -9,6 +9,9 @@ public class GameController : MonoBehaviour
     private int countGuess;
 
     [SerializeField]
+    private GameObject btn;
+
+    [SerializeField]
     private InputField input;
 
     [SerializeField]
@@ -25,20 +28,27 @@ public class GameController : MonoBehaviour
     {
         CompareGuesses(int.Parse(guess));
         input.text = "";
+        countGuess++;
     }
 
     void CompareGuesses(int guess)
     {
         if(guess == num)
         {
-            text.text = "You Guessed Correctly The Number Was" + guess;
+            text.text = "You guessed correctly. The number was " + guess + "It took you " + countGuess + "guess(ess) ";
+            btn.SetActive(true);
         } else if (guess < num) 
         {
-            text.text = "Your Guess Number is Less Than The Number You Are Trying to Guess";
+            text.text = "Your guess number is less than the number you are yrying to guess";
         } else if (guess > num)
         {
-            text.text = "Your Guess Number is Greater Than The Number You Are Trying to Guess";
+            text.text = "Your guess number is greater than the number you are trying to guess";
         }
    
+    }
+
+    public void Underwater()
+    {
+
     }
 }
