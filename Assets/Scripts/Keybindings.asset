@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c55662acc91ac7b47ad4e56b2c9d7629, type: 3}
+  m_Name: Keybindings
+  m_EditorClassIdentifier: Assembly-CSharp::KeyBindings
+  number1: 257
+  number2: 258
+  number3: 259
+  number4: 260
+  number5: 261
+  number6: 262
+  number7: 263
+  number8: 264
+  number9: 265
+  number: 256
+  clear: 12
+  enter: 271
+  help: 0

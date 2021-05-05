@@ -20,8 +20,8 @@ public class GameController : MonoBehaviour
 
     void Awake () {
         //   {input = GameObject.Find ("InputField").GetComponent<InputField>();
-        num = Random.Range(0,200);
-        text.text = "Guess A Number Between 0 and 200";
+        num = 169;
+        text.text = "Guess A Number";
          }
 
     public void GetInput(string guess)
@@ -39,7 +39,7 @@ public class GameController : MonoBehaviour
             btn.SetActive(true);
         } else if (guess < num) 
         {
-            text.text = "Your guess number is less than the number you are yrying to guess";
+            text.text = "Your guess number is less than the number you are trying to guess";
         } else if (guess > num)
         {
             text.text = "Your guess number is greater than the number you are trying to guess";
