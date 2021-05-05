@@ -35,7 +35,7 @@ public class GameController : MonoBehaviour
     {
         if(guess == num)
         {
-            text.text = "You guessed correctly. The number was " + guess + "It took you " + countGuess + "guess(ess) ";
+            text.text = "You guessed correctly. The number was " + guess + " It took you " + countGuess + "guess(ess) ";
             btn.SetActive(true);
         } else if (guess < num) 
         {
