@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000002AD1DEA1738 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000002AD1DEA3CE8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -16,19 +16,19 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002AD1F411598
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002AD1F411598
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002AD1F411598
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002AD1F411598
-[LOG] SoundI::release                          : Seagull (close) (000002AD14A97178)
-[LOG] SoundI::release                          :     Seagull (close) (000002ACEA7F8338)
-[LOG] SoundI::release                          :     Seagull (close) (000002AD1F411748)
-[LOG] SoundI::release                          : Electric music-noise (000002AD14A96758)
-[LOG] SoundI::release                          :     Electric music-noise (000002ACEA7F8678)
-[LOG] SoundI::release                          :     Electric music-noise (000002AD1F411598)
-[LOG] SoundI::release                          : Dialouge 1 (strings) (000002AD14A96908)
-[LOG] SoundI::release                          :     Dialouge 1 (strings) (000002AD1FB66888)
-[LOG] SoundI::release                          :     Dialouge 1 (strings) (000002AD1F4118F8)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002ACF3970E28
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002ACF3970E28
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002ACF3970C78
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002ACF3970C78
+[LOG] SoundI::release                          : Seagull (close) (000002ACBFEC8668)
+[LOG] SoundI::release                          :     Seagull (close) (000002ACEB2D1468)
+[LOG] SoundI::release                          :     Seagull (close) (000002ACF3970E28)
+[LOG] SoundI::release                          : Electric music-noise (000002ACBFEC8308)
+[LOG] SoundI::release                          :     Electric music-noise (000002ACEB2D0C48)
+[LOG] SoundI::release                          :     Electric music-noise (000002ACF3970C78)
+[LOG] SoundI::release                          : Dialouge 1 (strings) (000002ACBFECBAB8)
+[LOG] SoundI::release                          :     Dialouge 1 (strings) (000002ACEB2D0F88)
+[LOG] SoundI::release                          :     Dialouge 1 (strings) (000002ACF3972AD8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
@@ -39,5 +39,3 @@
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] SystemI::close                           : Closed.
-[WRN] OutputWASAPI::mixerThread                : Starvation detected in WASAPI output buffer!
-[WRN] OutputWASAPI::mixerThread                : Starvation detected in WASAPI output buffer!
